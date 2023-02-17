@@ -25,6 +25,9 @@ import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile.png';
+import pic from '../assets/pic.png';
+import pic1 from '../assets/pic1.png';
+import pic2 from '../assets/pic2.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 
@@ -61,6 +64,9 @@ export default {
     about03,
     about04,
     profile,
+    pic,
+    pic1,
+    pic2,
     circle,
     logo,
     adidas,

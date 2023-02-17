@@ -6,9 +6,9 @@ import './About.scss';
 import { images } from '../../constants';
 const abouts= [
   {title:'Web Development',description:'I am good web developer',imageUrl:images.about01},
-  {title:'Angular Developer',description:'I am good web developer',imageUrl:images.about02},
-  {title:'Mean Developer',description:'I am good web developer',imageUrl:images.about03},
-  {title:'Mean Developer',description:'I am good web developer',imageUrl:images.about04},
+  {title:'Angular Developer',description:'I am good Angular developer',imageUrl:images.about02},
+  {title:'Mean Developer',description:'I am good Mean developer',imageUrl:images.about03},
+  {title:'Software Developer',description:'I am good web Software Developer',imageUrl:images.about04},
 ];
 
 const About = () => {
@@ -24,7 +24,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
+      <h2 className="head-text">I Know that <span>Good Development</span> <br />means  <span>Good Business</span></h2>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
